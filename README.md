@@ -38,6 +38,12 @@
   Die übrig gebliebenen Unterpunkte müssen wir dann in der nächsten Stunde bearbeiten, da wir sie noch nicht geschafft haben.
 
 ###Das Halunken Scenatrio<a name="HalScen"></a>
+
+Hierbei handelt es sich um eine Welt die wir eigenständig bei Greenfoot angelegt haben. Ursprünglich wollten wir nur nebenbei damit rumprobieren, was wir mittels der Lernaktivitäten bereits gelernt haben. Da es aber mit der Zeit immer mehr wurde, brauchten wir eine Ziel bzw. eine Richtung, um etwas einigermaßen Sinnvolles zu "programieren". So entschieden wir, dass wir aus dem Szenario eine Art Spiel machen würden, mit den Werkzeugen, die wir uns mit der Zeit zulegen. Zudem überlegten wir uns Aspekte, die unser Spiel spannender bzw. attraktiver machen sollen in der Hoffnung, dass wir in Zukunft lernen diese Ziele umsetzen zu können.
+Folgende Ideen haben wir:
+* In dem Spiel soll es darum gehen, dass ein _actor_ einen weiteren jagen soll und diesen letzten Endes _(fr)isst_
+* Die _actors_ sollen über die Tastatur gesteuert werden, sodass das Spiel für zwei Spieler sein wird
+* 
   [Lernaktivität 1]:
 
 
