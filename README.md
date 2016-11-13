@@ -4,7 +4,7 @@
 [1. GF_Stride_Lernaktivitäten](GF_S._L.)
 2. Unser Spiel **Das Halunken Scenatrio**
 
-###GF_Stride_Lernaktivitäten
+###GF_Stride_Lernaktivitäten<a name="GF_S._L."></a>
   
   _Donnerstag, **22.09.2016**:_
   Linda und ich haben weiter darüber nachgedacht, welches Projekt wir machen. Wir haben uns bereits dafür entschieden, dass wir     mit der Lehrumgebung „Greenfoot“ arbeiten wollen. Nachdem wir uns die verschiedenen Möglichkeiten angeguckt haben, entschieden     wir uns letzten Endes für die GF_Stride_Lernaktivitaeten.
