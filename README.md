@@ -2,6 +2,7 @@
 
 #### **Inhalt**
 [1. GF_Stride_Lernaktivitäten](#GF_S._L.)
+
 [2. Unser Spiel **Das Halunken Scenatrio**](#HalScen)
 
 ###GF_Stride_Lernaktivitäten<a name="GF_S._L."></a>
