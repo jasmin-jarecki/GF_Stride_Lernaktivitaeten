@@ -1,7 +1,7 @@
 ## _Informatik Stunden-Dokumentation_
 
 #### **Inhalt**
-1. GF_Stride_Lernaktivitäten
+[1. GF_Stride_Lernaktivitäten](GF_S._L.)
 2. Unser Spiel **Das Halunken Scenatrio**
 
 ###GF_Stride_Lernaktivitäten
@@ -36,7 +36,7 @@
  Da Stride-Editor vorgeschrieben war, dass die Katze nicht müde ist, hat diese dann auch nicht geschlafen. Das Gleiche haben   wir dann gemacht mit Tanzen, wenn sie gelangweilt ist und mit Essen, falls die hungrig ist. Uns ist aufgefallen, dass die Katze   auf jeden Fall gelangweilt ist und deswegen tanzt. Nach dem tanzen ist sie dann aber auch hungrig und müde, sodass sie danach   auch isst und schläft, obwohl zunächst formuliert ist, dass sie weder  hungrig noch müde ist.
   Die übrig gebliebenen Unterpunkte müssen wir dann in der nächsten Stunde bearbeiten, da wir sie noch nicht geschafft haben.
 
-  
+  [Lernaktivität 1]:
 
 
 
