@@ -45,16 +45,15 @@ _Donnerstag, **04.11.2016**:_
 
 _Montag, **07.11.2016**:_
 
-_Donnerstag, **10.11.2016**:_
-
 _Montag, **14.11.2016**:_
-Aufgrund des anstehenden Abgabetermins der ersten Arbeit entschlossen Linda und ich uns, fürs erste nicht weiter an den Lernaktivitäten zu arbeiten. Wir wollten uns darum bemühen, dass wir eine vorläufig abgeschlossene Form unseres Spiels zu erreichen. 
+Aufgrund des anstehenden Abgabetermins der ersten Arbeit entschlossen Linda und ich uns, fürs erste nicht weiter an den Lernaktivitäten zu arbeiten. Wir wollten uns darum bemühen, dass wir eine vorläufig abgeschlossene Form unseres Spiels zu erreichen. Das sollte bedeuten, dass die ersten vier Punkte unserer Zielsetzungen bzw. Ideen umgesetzt sind. Da die ersten drei Kriterien bereits so gut wie erfüllt waren, kümmerten wir uns dabei nur noch um Kleinigkeiten. Eines davon war zum Beispiel, die Steuerung der Blume und der Schildkröte. Uns ist aufgefallen, dass die zuunächst eher wenig durchdachte Wahl der Tasten zu Irritationen führte, sodass wir dort Änderungen vorgenommen haben. Nachdem die drei ersten Punkte zu unserer Zufriedenheit abgearbeitet waren, kümmerten wir uns um den vierten Punkt. Dieser beinhaltet, dass wir den fliehenden _actors_ bessere Fluchtmöglichkeiten bieten, indem wir Hindernisse und Wände in die Welt bauen. Dafür wählten wir Fässer (_barrels_), die wir aneinader gereiht in der Welt platzierten. Ein großes Problem wurde allerdings recht schnell deutlich, nämlich, dass die Fässer von den Akteuren ignoriert bzw. behandelt wurden, als wären sie nicht da. Wir versuchten eine Möglichkeit zu finden, diesen fehler zu behebn, allerdings ist das nicht gelungen.  
 
 _Montag, **21.11.2016**:_
-Wir waren weiter dabei, eine Lösung für unser "Fässer-Problem" zu finden, allerdings verstrich die Stunde ohne verwertbare Ergebnisse.
+Wir waren weiter dabei, eine Lösung für unser "Fässer-Problem" zu finden, allerdings verstrich die Stunde ohne verwertbare Ergebnisse. Wir versuchten es z. B. damit, dass die Akteure unabhängig von den Fässern, an den Punkten, an denen sich die Fässer befinden, gezwungen sind zu drehen. Allerdings sind alle unsere Ansätze in die Richtung biher gescheitert.
+Auch unternahmen wir den Versuch äquivalent zu _isAtEdge()_ eine Methode (?) _isAtBarrel_ mithilfe einer Variable, was aber nur theoretisch geklappt hat, da die Variable und die Verwendung dieser keinen Einfluss auf die Akteure und ihre Handlungen nahm.
 
 _Donnerstag, **25.11.2016**:_
-Auch in dieser Stunde bemühten wir uns darum, dass unsere _actors_ nicht durch die Fässer ("barrels") durch können, allerdings gab es auch dieses Mal keine richtigen Erfolge zu verzeichnen. Wir gucken in der nächsten Stunde noch ein bisschen weiter, aber vermutlich verschieben wir dieses Vorhaben doch nach hinten, um uns erstmal um andere Dinge, die für uns leichter zu bewältigen sind, zu kümmern. Hoffentlich lernen wir dann in der Zeit auch, wie wir das Problemmit den Fässern lösen können. Trotz der Schwierigkeiten war die Stunde dennoch nicht komplett ergebnislos. Abgesehen davon, dass wir ein wenig mehr gelernt haben, haben wir unsere Spieloberfläche vergrößert, wofür nur die Werte .... verändert werden mussten.
+Auch in dieser Stunde bemühten wir uns darum, dass unsere _actors_ nicht durch die Fässer ("barrels") durch können, allerdings gab es auch dieses Mal keine richtigen Erfolge zu verzeichnen. Wir gucken in der nächsten Stunde noch ein bisschen weiter, aber vermutlich verschieben wir dieses Vorhaben doch nach hinten, um uns erstmal um andere Dinge, die für uns leichter zu bewältigen sind, zu kümmern. Hoffentlich lernen wir dann in der Zeit auch, wie wir das Problem mit den Fässern lösen können. Trotz der Schwierigkeiten war die Stunde dennoch nicht komplett ergebnislos. Abgesehen davon, dass wir ein wenig mehr gelernt haben, haben wir unsere Spieloberfläche vergrößert, wofür nur die Werte .... verändert werden mussten.
 
 ###Das Halunken Scenatrio<a name="HalScen"></a>
 
@@ -63,10 +62,12 @@ Folgende Ideen haben wir:
 * In dem Spiel soll es darum gehen, dass ein _actor_ einen weiteren [jagen](#Lsg1) soll und diesen letzten Endes _(fr)isst_
 * Die _actors_ sollen über die Tastatur gesteuert werden, sodass das Spiel für zwei Spieler sein wird
 * Damit es für den Jagenden nicht so leicht ist, soll es noch einen weitereren _actor_ sich geben, der sich willkürlich bewegt und die Blume (fr)isst, wenn er sie berührt
-* Um allen Gejagten eine größere Überlebenschance zu ermöglichen, wollen wir so eine Art Hindernisse bzw. Mauer aus Objekten die von den _actors_ nicht überquert werden können, sodass man sich dahinter sozusagen verstecken kann
+* Um allen Gejagten eine größere Überlebenschance zu ermöglichen, wollen wir so eine Art Hindernisse bzw. Mauer aus Objekten die von den _actors_ nicht überquert werden können, sodass man sich dahinter sozusagen verstecken kann.
+
+Rahmenbedingungen des Halunken Scenatrios:
 
 Ein _actor_ jagt den anderen<a name="Lsg1"></a>:
-
+Dafür setzten wir zu unserer Blume einen weiteren _actor_ in Form einer Schildkröte, die im Folgenden "Turtla" genannt wird, ein.
 
   [Lernaktivität 1]:
 
