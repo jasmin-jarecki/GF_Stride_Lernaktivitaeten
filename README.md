@@ -51,6 +51,7 @@ _Montag, **14.11.2016**:_
 Aufgrund des anstehenden Abgabetermins der ersten Arbeit entschlossen Linda und ich uns, fürs erste nicht weiter an den Lernaktivitäten zu arbeiten. Wir wollten uns darum bemühen, dass wir eine vorläufig abgeschlossene Form unseres Spiels zu erreichen. 
 
 _Montag, **21.11.2016**:_
+Wir waren weiter dabei, eine Lösung für unser "Fässer-Problem" zu finden, allerdings verstrich die Stunde ohne verwertbare Ergebnisse.
 
 _Donnerstag, **25.11.2016**:_
 Auch in dieser Stunde bemühten wir uns darum, dass unsere _actors_ nicht durch die Fässer ("barrels") durch können, allerdings gab es auch dieses Mal keine richtigen Erfolge zu verzeichnen. Wir gucken in der nächsten Stunde noch ein bisschen weiter, aber vermutlich verschieben wir dieses Vorhaben doch nach hinten, um uns erstmal um andere Dinge, die für uns leichter zu bewältigen sind, zu kümmern. Hoffentlich lernen wir dann in der Zeit auch, wie wir das Problemmit den Fässern lösen können. Trotz der Schwierigkeiten war die Stunde dennoch nicht komplett ergebnislos. Abgesehen davon, dass wir ein wenig mehr gelernt haben, haben wir unsere Spieloberfläche vergrößert, wofür nur die Werte .... verändert werden mussten.
@@ -59,10 +60,12 @@ Auch in dieser Stunde bemühten wir uns darum, dass unsere _actors_ nicht durch 
 
 Hierbei handelt es sich um eine Welt die wir eigenständig bei Greenfoot angelegt haben. Ursprünglich wollten wir nur nebenbei damit rumprobieren, was wir mittels der Lernaktivitäten bereits gelernt haben. Da es aber mit der Zeit immer mehr wurde, brauchten wir eine Ziel bzw. eine Richtung, um etwas einigermaßen Sinnvolles zu "programmieren". So entschieden wir, dass wir aus dem Szenario eine Art Spiel machen würden, mit den Werkzeugen, die wir uns mit der Zeit zulegen. Zudem überlegten wir uns Aspekte, die unser Spiel spannender bzw. attraktiver machen sollen in der Hoffnung, dass wir in Zukunft lernen diese Ziele umsetzen zu können.
 Folgende Ideen haben wir:
-* In dem Spiel soll es darum gehen, dass ein _actor_ einen weiteren jagen soll und diesen letzten Endes _(fr)isst_
+* In dem Spiel soll es darum gehen, dass ein _actor_ einen weiteren [jagen](#Lsg1) soll und diesen letzten Endes _(fr)isst_
 * Die _actors_ sollen über die Tastatur gesteuert werden, sodass das Spiel für zwei Spieler sein wird
 * Damit es für den Jagenden nicht so leicht ist, soll es noch einen weitereren _actor_ sich geben, der sich willkürlich bewegt und die Blume (fr)isst, wenn er sie berührt
 * Um allen Gejagten eine größere Überlebenschance zu ermöglichen, wollen wir so eine Art Hindernisse bzw. Mauer aus Objekten die von den _actors_ nicht überquert werden können, sodass man sich dahinter sozusagen verstecken kann
+
+Ein _actor_ jagt den anderen<a name="Lsg1"></a>:
 
 
   [Lernaktivität 1]:
