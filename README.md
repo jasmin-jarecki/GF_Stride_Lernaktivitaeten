@@ -44,7 +44,8 @@ _Montag, **31.10.2016**:_
 Wir fuhren weiter in der Bearbeitung der Lernaktivitäten fort. Da wir in der letzten Stunde die dritte beendet haben, machten wir weiter mit der [vierten][Lernaktivität 4]. Mit dieser Aktivität haben wir endlich gelernt, wie wir es schaffen können, dass unsere Blume ("flower") in unserem "Halunken Scenatrio" nicht ständig neu hinzugefügt werden muss, weil sie auf für uns zunächst unerklärliche Weise verschwand. Im Allgemeinen lernten wir mithilfe dieser Lernaktivität, besser mit den Methoden-Aufrufen umzugehen, was ja auch das angegeben Ziel des Bogens ist.
 In dieser Stunde bearbeiteten wir zudem noch die [fünfte Lernaktivität][Lernaktivität 5].
 
-_Donnerstag, **03.11.2016**:_
+_Donnerstag, **03.11.2016**:_ 
+Da wir in der letzten Stunde bis zur fünften Lernaktivität gekommen, machten wir unserem Muster folgend weiter mit der sechsten [Lernaktivität][Lernaktivität 6]. 
 
 _Montag, **07.11.2016**:_
 
