@@ -38,8 +38,11 @@
   Die übrig gebliebenen Unterpunkte müssen wir dann in der nächsten Stunde bearbeiten, da wir sie noch nicht geschafft haben.
   
 _Montag, **10.10.2016**:_
+Von der dritten Lernaktivität sind uns noch zwei Arbeitsaufträge Über geblieben, die wir in dieser Stunde bearbeitet haben. Es ging weiter darum, mit dem if-Befehl umzugehen, was uns nicht weiter schwerfiel.
 
 _Montag, **31.10.2016**:_
+Wir fuhren weiter in der Bearbeitung der Lernaktivitäten fort. Da wir in der letzten Stunde die dritte beendet haben, machten wir weiter mit der vierten. Mit dieser Aktivität haben wir endlich gelernt, wie wir es schaffen können, dass unsere Blume ("flower") in unserem "Halunken Scenatrio" nicht ständig neu hinzugefügt werden muss, weil sie auf für uns zunächst unerklärliche Weise verschwand. Im Allgemeinen lernten wir mithilfe dieser Lernaktivität, besser mit den Methoden-Aufrufen umzugehen, was ja auch das angegeben Ziel des Bogens ist.
+In dieser Stunde bearbeiteten wir zudem noch die fünfte Lernaktivität.
 
 _Donnerstag, **04.11.2016**:_
 
