@@ -12,7 +12,7 @@
   In dieser Stunde haben wir dann auch angefangen, an der ersten Lernaktivität zu arbeiten. Die dazugehörigen Arbeitsblätter         bearbeiten wir beide auf unseren iPads und sobald wir sie durchgearbeitet haben, werde ich diese zusätzlich hochladen.
   
   _Montag, **26.09.2016**:_
-  Linda und ich haben weiter an der ersten Lernaktivität gearbeitet. Dabei haben wir uns bisschen genauer mit den einzelnen         Befehlsblöcken beschäftigt und ein geguckt, wie sie geschrieben sind und wie man diese und mit welchen Folgen verändern kann.     Allerdings haben wir die Aktivität noch immer nicht ganz durchgeschafft.
+  Linda und ich haben weiter an der ersten Lernaktivität gearbeitet. Dabei haben wir uns bisschen genauer mit den einzelnen         Befehlsblöcken beschäftigt und geguckt, wie sie geschrieben sind und wie man diese und mit welchen Folgen verändern kann.     Allerdings haben wir die Aktivität noch immer nicht ganz durchgeschafft.
 
   _Donnerstag, **29.09.2016**:_
   Linda und ich haben heute die [erste Lernaktivität][Lernaktivität 1] beendet und die zweite angefangen. Das erste Arbeitsblatt wird als nächstes     hochgeladen.
