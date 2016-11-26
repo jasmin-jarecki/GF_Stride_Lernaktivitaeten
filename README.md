@@ -15,12 +15,12 @@
   Linda und ich haben weiter an der ersten Lernaktivität gearbeitet. Dabei haben wir uns bisschen genauer mit den einzelnen         Befehlsblöcken beschäftigt und ein geguckt, wie sie geschrieben sind und wie man diese und mit welchen Folgen verändern kann.     Allerdings haben wir die Aktivität noch immer nicht ganz durchgeschafft.
 
   _Donnerstag, **29.09.2016**:_
-  Linda und ich haben heute die erste Lernaktivität beendet und die zweite angefangen. Das erste Arbeitsblatt wird als nächstes     hochgeladen.
+  Linda und ich haben heute die [erste Lernaktivität][Lernaktivität 1] beendet und die zweite angefangen. Das erste Arbeitsblatt wird als nächstes     hochgeladen.
   
   _Montag, **03.10.2016**:_ Tag der Deutschen Einheit → **kein Unterricht**
   
   Donnerstag, **06.10.2016**:
-  Auch heute haben Linda und ich an den Lernaktivitäten weitergearbeitet. Die zweite haben wir beendet (das AB wird hochgeladen)   und die dritte haben wir angefangen. Da es für diese keine auszufüllendes AB mehr gibt beschreibe ich von nun an hier drin,    was   wir gemacht haben.
+  Auch heute haben Linda und ich an den Lernaktivitäten weitergearbeitet. Die [zweite][Lernaktivität 2] haben wir beendet und die dritte haben wir angefangen. Da es für diese keine auszufüllendes AB mehr gibt beschreibe ich von nun an hier drin,    was   wir gemacht haben.
   Lernziele der Aktivität:
   1. Sicherheit darin gewinnen, Methoden aufzurufen
   2. Lernen, den if-Befehl zu verwenden 
@@ -38,11 +38,11 @@
   Die übrig gebliebenen Unterpunkte müssen wir dann in der nächsten Stunde bearbeiten, da wir sie noch nicht geschafft haben.
   
 _Montag, **10.10.2016**:_
-Von der dritten Lernaktivität sind uns noch zwei Arbeitsaufträge Über geblieben, die wir in dieser Stunde bearbeitet haben. Es ging weiter darum, mit dem if-Befehl umzugehen, was uns nicht weiter schwerfiel.
+Von der [dritten Lernaktivität][Lernaktivität 3] sind uns noch zwei Arbeitsaufträge Über geblieben, die wir in dieser Stunde bearbeitet haben. Es ging weiter darum, mit dem if-Befehl umzugehen, was uns nicht weiter schwerfiel.
 
 _Montag, **31.10.2016**:_
-Wir fuhren weiter in der Bearbeitung der Lernaktivitäten fort. Da wir in der letzten Stunde die dritte beendet haben, machten wir weiter mit der vierten. Mit dieser Aktivität haben wir endlich gelernt, wie wir es schaffen können, dass unsere Blume ("flower") in unserem "Halunken Scenatrio" nicht ständig neu hinzugefügt werden muss, weil sie auf für uns zunächst unerklärliche Weise verschwand. Im Allgemeinen lernten wir mithilfe dieser Lernaktivität, besser mit den Methoden-Aufrufen umzugehen, was ja auch das angegeben Ziel des Bogens ist.
-In dieser Stunde bearbeiteten wir zudem noch die fünfte Lernaktivität.
+Wir fuhren weiter in der Bearbeitung der Lernaktivitäten fort. Da wir in der letzten Stunde die dritte beendet haben, machten wir weiter mit der [vierten][Lernaktivität 4]. Mit dieser Aktivität haben wir endlich gelernt, wie wir es schaffen können, dass unsere Blume ("flower") in unserem "Halunken Scenatrio" nicht ständig neu hinzugefügt werden muss, weil sie auf für uns zunächst unerklärliche Weise verschwand. Im Allgemeinen lernten wir mithilfe dieser Lernaktivität, besser mit den Methoden-Aufrufen umzugehen, was ja auch das angegeben Ziel des Bogens ist.
+In dieser Stunde bearbeiteten wir zudem noch die [fünfte Lernaktivität][Lernaktivität 5].
 
 _Donnerstag, **04.11.2016**:_
 
@@ -72,7 +72,16 @@ Rahmenbedingungen des Halunken Scenatrios:
 Ein _actor_ jagt den anderen<a name="Lsg1"></a>:
 Dafür setzten wir zu unserer Blume einen weiteren _actor_ in Form einer Schildkröte, die im Folgenden "Turtla" genannt wird, ein.
 
-  [Lernaktivität 1]:
+  [Lernaktivität 1]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_1_Meet-the-greeps_german%20(1).pdf
+  
+  [Lernaktivität 2]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_2_FatCat_german.pdf
 
+[Lernaktivität 3]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_3_FatCat_if_command_german.pdf
+
+[Lernaktivität 4]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_4_Little_Crab_german.pdf
+
+[Lernaktivität 5]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_5_Little_Crab_Zufallszahlen_dot_notation_german.pdf
+
+[Lernaktivität 6]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_6_Little_Crab_new_classes_german.pdf
 
 
