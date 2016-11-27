@@ -75,7 +75,7 @@ Auch in dieser Stunde bemühten wir uns darum, dass unsere _actors_ nicht durch 
 
 ###Das Halunken Scenatrio<a name="HalScen"></a>
 
-Hierbei handelt es sich um eine Welt die wir eigenständig bei Greenfoot angelegt haben. Ursprünglich wollten wir nur nebenbei damit rumprobieren, was wir mittels der Lernaktivitäten bereits gelernt haben. Da es aber mit der Zeit immer mehr wurde, brauchten wir eine Ziel bzw. eine Richtung, um etwas einigermaßen Sinnvolles zu "programmieren". So entschieden wir, dass wir aus dem Szenario eine Art Spiel machen würden, mit den Werkzeugen, die wir uns mit der Zeit zulegen. Zudem überlegten wir uns Aspekte, die unser Spiel spannender bzw. attraktiver machen sollen in der Hoffnung, dass wir in Zukunft lernen diese Ziele umsetzen zu können.
+Hierbei handelt es sich um eine Welt die wir eigenständig bei Greenfoot angelegt haben. Ursprünglich wollten wir nur nebenbei damit rumprobieren, was wir mittels der Lernaktivitäten bereits gelernt haben. Da es aber mit der Zeit immer mehr wurde, brauchten wir ein Ziel bzw. eine Richtung, um etwas einigermaßen Sinnvolles zu "programmieren". So entschieden wir, dass wir aus dem Szenario eine Art Spiel machen würden, mit den Werkzeugen, die wir uns mit der Zeit zulegen. Zudem überlegten wir uns Aspekte, die unser Spiel spannender bzw. attraktiver machen sollen in der Hoffnung, dass wir in Zukunft lernen diese Ziele umsetzen zu können.
 Folgende Ideen haben wir:
 * In dem Spiel soll es darum gehen, dass ein _actor_ einen weiteren [jagen](#Lsg1) soll und diesen letzten Endes _(fr)isst_
 * Die _actors_ sollen über die [Tastatur gesteuert](#Lsg2) werden, sodass das Spiel für zwei Spieler sein wird
@@ -85,7 +85,7 @@ Folgende Ideen haben wir:
 * Zudem wäre eine Kennzeichnung des Spielanfangs und des Spielendes deutlich werden 
 * Augenblicklich kann die Schildkröte nur verlieren, es müsste ebenfalls ein Ziel, abgesehen von der Flucht, geben (z. B. Timer: wenn die SChildkröte so lange Überlebt bis die Zeit abgelaufen ist, hat diese gewonnen.
 
-Rahmenbedingungen des Halunken Scenatrios:
+#####Rahmenbedingungen des Halunken Scenatrios:
 
 Unsere Spieloberfläche beträgt 700 Pixel in x-Richtung und 500 Pixel in y-Richtung, Ursprünglich hatte sie andere Maße, die haben wir aber aus Platzmangel geändert, damit die gesamte Oberfläche größer würde.
 Es ist folgendermaßen beschrieben.
@@ -107,7 +107,7 @@ Wie man im Quelltext sehen kann, ist dort das Szenario in drei Dimensionen besch
 
 
 
-Ein _actor_ jagt den anderen<a name="Lsg1"></a>:
+#####Ein _actor_ jagt den anderen<a name="Lsg1"></a>:
 Dafür setzten wir zu unserer Blume einen weiteren _actor_ in Form einer Schildkröte, die im Folgenden "Turtla" genannt wird, ein.
 Mit dem Einsetzen von Turtla und dem Speichern ("save the world") wurde in der prepare()-Methode  hinzugefügt:
 
@@ -127,7 +127,7 @@ if(isTouching(Turtla.class))
 
 Dadurch wurde die Schildkröte, wenn sie von der Blume berührt hatte, durch diese "gefressen".
 
-Tastatursteuerung der Akteuere<a name="Lsg2"></a>:
+#####Tastatursteuerung der Akteuere<a name="Lsg2"></a>:
 
 Sowohl die Blume ("flower") als auch die Schildkröte ("Turtla") sollen über die Tastatur gesteuert werden, damit es zu einem Spiel wird, dass durch Spieler ausgeführt werden muss. Dafür wählten wir ganz einfache Methoden:
 Bsp. _flower_
@@ -144,11 +144,11 @@ if(Greenfoot.isKeyDown("down"))
 Beim Ausprobieren wurde deutlich, dass diese Beschreibung bisher nur zweckdienlch ist, aber noch nicht ganz ideal für die Ausführung. Dadurch, dass man anstatt sich seitlich zu bewegen, sich in eine bestimmte Richtung dreht, wenn man die Tasten mit den horizontalen Pfeilen drückt, kommt es ein wenig zu Bedienungsschwierigkeiten, an die man sich noch gewöhnen muss. Vielleicht fällt uns in Zukunkt noch eine optimalere Lösung ein.
 Bei der Turtla haben wir die Tastenbestimmung analog gemacht, allerdings mit der Wahl der "A", "W", "S" und "D" Tasten.
 
-Dritter Akteur, der die Blume fressen kann<a name="Lsg3"></a>:
+#####Dritter Akteur, der die Blume fressen kann<a name="Lsg3"></a>:
 
 Dafür wurde, wie bereits zuvor die Schildkröte, ein weiterer _actor_ hinzugefügt. Dieses Mal wählten wir ein Schweinchen, das im Folgenden "DirtyPig" genannt wird. Dieses bewegt sich ungesteuert durch die Welt, wobei es, sobald es an den Rand kommt, in einem unbestimmten Winkel abgelenkt wird.
 
-Mauer aus Objekten<a name="Lsg4"></a>:
+#####Mauer aus Objekten<a name="Lsg4"></a>:
 
 Wir bildeten noch eine Subclass, dieses Mal wählten wir Fässer ("barrel"). Davon platzierten wir einige nebeneinander, sodass sie eine Mauer bzw. Wand bilden. Diese speicherten wir auch in der Welt ab. 
 Bis dahin war alles nicht weiter schwer, aber danach kamen wir noch zu keiner Lösung. Das Problem ist, dass die anderen _actors_ nicht von den Fässern beeinflusst werden. Sie können einfach durch sie durchgehen. Wir haben bisher einige Ideen gehabt, allerdings war noch keine zielführend bzw. nicht entsprechend umgesetzt.
