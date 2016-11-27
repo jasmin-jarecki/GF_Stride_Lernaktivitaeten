@@ -64,10 +64,10 @@ Die Problematik bei der Siebten Aufgabe im Übrigen war, dass wir die geforderte
 
 
 _Montag, **14.11.2016**:_
-Aufgrund des anstehenden Abgabetermins der ersten Arbeit entschlossen Linda und ich uns, fürs erste nicht weiter an den Lernaktivitäten zu arbeiten. Wir wollten uns darum bemühen, dass wir eine vorläufig abgeschlossene Form unseres Spiels zu erreichen. Das sollte bedeuten, dass die ersten vier Punkte unserer Zielsetzungen bzw. Ideen umgesetzt sind. Da die ersten drei Kriterien bereits so gut wie erfüllt waren, kümmerten wir uns dabei nur noch um Kleinigkeiten. Eines davon war zum Beispiel, die Steuerung der Blume und der Schildkröte. Uns ist aufgefallen, dass die zuunächst eher wenig durchdachte Wahl der Tasten zu Irritationen führte, sodass wir dort Änderungen vorgenommen haben. Nachdem die drei ersten Punkte zu unserer Zufriedenheit abgearbeitet waren, kümmerten wir uns um den vierten Punkt. Dieser beinhaltet, dass wir den fliehenden _actors_ bessere Fluchtmöglichkeiten bieten, indem wir Hindernisse und Wände in die Welt bauen. Dafür wählten wir Fässer (_barrels_), die wir aneinader gereiht in der Welt platzierten. Ein großes Problem wurde allerdings recht schnell deutlich, nämlich, dass die Fässer von den Akteuren ignoriert bzw. behandelt wurden, als wären sie nicht da. Wir versuchten eine Möglichkeit zu finden, diesen fehler zu behebn, allerdings ist das nicht gelungen.  
+Aufgrund des anstehenden Abgabetermins der ersten Arbeit entschlossen Linda und ich uns, fürs erste nicht weiter an den Lernaktivitäten zu arbeiten. Wir wollten uns darum bemühen, dass wir eine vorläufig abgeschlossene Form unseres Spiels zu erreichen. Das sollte bedeuten, dass die ersten vier Punkte unserer Zielsetzungen bzw. Ideen umgesetzt sind. Da die ersten drei Kriterien bereits so gut wie erfüllt waren, kümmerten wir uns dabei nur noch um Kleinigkeiten. Eines davon war zum Beispiel, die Steuerung der Blume und der Schildkröte. Uns ist aufgefallen, dass die zunächst eher wenig durchdachte Wahl der Tasten zu Irritationen führte, sodass wir dort Änderungen vorgenommen haben. Nachdem die drei ersten Punkte zu unserer Zufriedenheit abgearbeitet waren, kümmerten wir uns um den vierten Punkt. Dieser beinhaltet, dass wir den fliehenden _actors_ bessere Fluchtmöglichkeiten bieten, indem wir Hindernisse und Wände in die Welt bauen. Dafür wählten wir Fässer (_barrels_), die wir aneinander gereiht in der Welt platzierten. Ein großes Problem wurde allerdings recht schnell deutlich, nämlich, dass die Fässer von den Akteuren ignoriert bzw. behandelt wurden, als wären sie nicht da. Wir versuchten eine Möglichkeit zu finden, diesen Fehler zu beheben, allerdings ist das nicht gelungen.  
 
 _Montag, **21.11.2016**:_
-Wir waren weiter dabei, eine Lösung für unser "Fässer-Problem" zu finden, allerdings verstrich die Stunde ohne verwertbare Ergebnisse. Wir versuchten es z. B. damit, dass die Akteure unabhängig von den Fässern, an den Punkten, an denen sich die Fässer befinden, gezwungen sind zu drehen. Allerdings sind alle unsere Ansätze in die Richtung biher gescheitert.
+Wir waren weiter dabei, eine Lösung für unser "Fässer-Problem" zu finden, allerdings verstrich die Stunde ohne verwertbare Ergebnisse. Wir versuchten es z. B. damit, dass die Akteure unabhängig von den Fässern, an den Punkten, an denen sich die Fässer befinden, gezwungen sind zu drehen. Allerdings sind alle unsere Ansätze in die Richtung bisher gescheitert.
 Auch unternahmen wir den Versuch äquivalent zu _isAtEdge()_ eine Methode (?) _isAtBarrel_ mithilfe einer Variable, was aber nur theoretisch geklappt hat, da die Variable und die Verwendung dieser keinen Einfluss auf die Akteure und ihre Handlungen nahm.
 
 _Donnerstag, **25.11.2016**:_
@@ -79,11 +79,11 @@ Hierbei handelt es sich um eine Welt die wir eigenständig bei Greenfoot angeleg
 Folgende Ideen haben wir:
 * In dem Spiel soll es darum gehen, dass ein _actor_ einen weiteren [jagen](#Lsg1) soll und diesen letzten Endes _(fr)isst_
 * Die _actors_ sollen über die [Tastatur gesteuert](#Lsg2) werden, sodass das Spiel für zwei Spieler sein wird
-* Damit es für den Jagenden nicht so leicht ist, soll es noch [einen weitereren _actor_](#Lsg3) geben, der sich willkürlich bewegt und die Blume (fr)isst, wenn er sie berührt
+* Damit es für den Jagenden nicht so leicht ist, soll es noch [einen weiteren _actor_](#Lsg3) geben, der sich willkürlich bewegt und die Blume (fr)isst, wenn er sie berührt
 * Um allen Gejagten eine größere Überlebenschance zu ermöglichen, wollen wir eine Art Hindernisse bzw. [Mauer aus Objekten](#Lsg4), die von den _actors_ nicht überquert werden können, errichten, sodass man sich dahinter verstecken kann
 * dem Spiel sollen Geräusche/Töne beigefügt werden, damit es für bestimmte Handlungen und Ereignisse eine geräuschliche Untermalung gibt
 * Zudem wäre eine Kennzeichnung des Spielanfangs und des Spielendes deutlich werden 
-* Augenblicklich kann die Schildkröte nur verlieren, es müsste ebenfalls ein Ziel, abgesehen von der Flucht, geben (z. B. Timer: wenn die SChildkröte so lange Überlebt bis die Zeit abgelaufen ist, hat diese gewonnen.
+* Augenblicklich kann die Schildkröte nur verlieren, es müsste ebenfalls ein Ziel, abgesehen von der Flucht, geben (z. B. Timer: wenn die Schildkröte so lange Überlebt bis die Zeit abgelaufen ist, hat diese gewonnen.
 
 #####Rahmenbedingungen des Halunken Scenatrios:
 
@@ -103,7 +103,7 @@ var flower flower <= new flower()
 
 addObject (flower, 137,66)
 
-Wie man im Quelltext sehen kann, ist dort das Szenario in drei Dimensionen beschrieben. Da allerdings unsere Akteure nur zweidimensional sind, muss das Spiel auch auf dieser Ebene stattfinden, was wahrscheinlich auch zunächst einemmal leichter und somit besser für uns ist.
+Wie man im Quelltext sehen kann, ist dort das Szenario in drei Dimensionen beschrieben. Da allerdings unsere Akteure nur zweidimensional sind, muss das Spiel auch auf dieser Ebene stattfinden, was wahrscheinlich auch zunächst einmal leichter und somit besser für uns ist.
 
 
 
@@ -119,7 +119,7 @@ addObject (turtla, 214, 270)
 
 In der Act Methode für die Schildkröte haben wir dann bestimmt, dass sie sich willkürlich bewegt und wenn sie an die Ränder der Welt ankommt, in einem zufälligen Winkel von 0-360° abgelenkt wird.
 
-Die Blume sollte dann (unlogischerweise) das Jagen übernehmen sodass in ihrer Act-Methode zusätzlich bestimmt wurde:
+Die Blume sollte dann (unlogischer Weise) das Jagen übernehmen sodass in ihrer Act-Methode zusätzlich bestimmt wurde:
 
 if(isTouching(Turtla.class))
 
@@ -149,7 +149,7 @@ if(Greenfoot.isKeyDown("down"))
 
 	move(-5)
 	
-Beim Ausprobieren wurde deutlich, dass diese Beschreibung bisher nur zweckdienlch ist, aber noch nicht ganz ideal für die Ausführung. Dadurch, dass man anstatt sich seitlich zu bewegen, sich in eine bestimmte Richtung dreht, wenn man die Tasten mit den horizontalen Pfeilen drückt, kommt es ein wenig zu Bedienungsschwierigkeiten, an die man sich noch gewöhnen muss. Vielleicht fällt uns in Zukunkt noch eine optimalere Lösung ein.
+Beim Ausprobieren wurde deutlich, dass diese Beschreibung bisher nur zweckdienlich ist, aber noch nicht ganz ideal für die Ausführung. Dadurch, dass man anstatt sich seitlich zu bewegen, sich in eine bestimmte Richtung dreht, wenn man die Tasten mit den horizontalen Pfeilen drückt, kommt es ein wenig zu Bedienungsschwierigkeiten, an die man sich noch gewöhnen muss. Vielleicht fällt uns in Zukunft noch eine optimalere Lösung ein.
 Bei der Turtla haben wir die Tastenbestimmung analog gemacht, allerdings mit der Wahl der "A", "W", "S" und "D" Tasten.
 
 #####Dritter Akteur, der die Blume fressen kann<a name="Lsg3"></a>:
@@ -167,13 +167,13 @@ var Barrel barrel <= new Barrel()
 
     boolean isAtBarrel <= intersect(barrel)
    
-Die Anwendung dieser Variable zeigte aber ebenfalls keine Wirkung. Da wir uns eigentlich noch nicht wirklich mit Varaiablen beschäftigt haben, ist es sehr gut möglich, dass uns da noch entscheidenden Fehler unterlaufen sind, aber bisher hatten wir es noch nicht geschafft, diese zu beheben.
+Die Anwendung dieser Variablen zeigte aber ebenfalls keine Wirkung. Da wir uns eigentlich noch nicht wirklich mit Variablen beschäftigt haben, ist es sehr gut möglich, dass uns da noch entscheidenden Fehler unterlaufen sind, aber bisher hatten wir es noch nicht geschafft, diese zu beheben.
 Abgesehen von diesem Versuch probierten wir es erfolglos noch auf andere Weisen.
 
 
 ###Ausblick<a name="Ausbl"></a> 
 
-Bisher besteht unser Spiel aus einer Grundidee, die wir in groben Zügen umsetzten konnten. In der nächsten Zeit wollen wir uns, weiter um die Details kümmern. Zum einen steht noch das Problem mit den Fässern aus. Da es augenblicklich nicht so aussieht, dass wir es in naher Zukunft lösen können, wollen wir uns weiter darum bemühen, weiter über Greenfoot zu lernen. Dafür werden darin fortfahren, die Lernaktivitäten su bearbeiten. Die siebte beschäftigt sich mit dem Einfügen von Sounds und Geräuschen, sodass wir vielleicht demnächst den Punkt mit den Geräuschen abarbeiten können, wenigstens einen Anfang machen.
+Bisher besteht unser Spiel aus einer Grundidee, die wir in groben Zügen umsetzten konnten. In der nächsten Zeit wollen wir uns, weiter um die Details kümmern. Zum einen steht noch das Problem mit den Fässern aus. Da es augenblicklich nicht so aussieht, dass wir es in naher Zukunft lösen können, wollen wir uns weiter darum bemühen, weiter über Greenfoot zu lernen. Dafür werden darin fortfahren, die Lernaktivitäten zu bearbeiten. Die siebte beschäftigt sich mit dem Einfügen von Sounds und Geräuschen, sodass wir vielleicht demnächst den Punkt mit den Geräuschen abarbeiten können, wenigstens einen Anfang machen.
 
 
 
