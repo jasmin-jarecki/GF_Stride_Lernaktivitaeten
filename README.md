@@ -100,6 +100,7 @@ prepare()
 In der Methode _prepare()_ sind dann unsere _actors_ bestimmt. Ganz am Anfang war dort nur zu sehen:
  
 var flower flower <= new flower()
+
 addObject (flower, 137,66)
 
 Wie man im Quelltext sehen kann, ist dort das Szenario in drei Dimensionen beschrieben. Da allerdings unsere Akteure nur zweidimensional sind, muss das Spiel auch auf dieser Ebene stattfinden, was wahrscheinlich auch zunächst einemmal leichter und somit besser für uns ist.
@@ -108,6 +109,29 @@ Wie man im Quelltext sehen kann, ist dort das Szenario in drei Dimensionen besch
 
 Ein _actor_ jagt den anderen<a name="Lsg1"></a>:
 Dafür setzten wir zu unserer Blume einen weiteren _actor_ in Form einer Schildkröte, die im Folgenden "Turtla" genannt wird, ein.
+Mit dem Einsetzen von Turtla und dem Speichern ("save the world") wurde in der prepare()-Methode  hinzugefügt:
+
+
+var Turtla turtla <= new Tutla()
+
+addObject (turtla, 214, 270)
+
+
+In der Act Methode für die Schildkröte haben wir dann bestimmt, dass sie sich willkürlich bewegt und wenn sie an die Ränder der Welt ankommt, in einem zufälligen Winkel von 0-360° abgelenkt wird.
+
+Die Blume sollte dann (unlogischerweise) das Jagen übernehmen sodass in ihrer Act-Methode zusätzlich bestimmt wurde:
+
+if(isTouching(Turtla.class))
+       removeTouching(Turtla.class)
+
+
+Dadurch wurde die Schildkröte, wenn sie von der Blume berührt hatte, von der Blume "gefressen"
+
+
+
+
+
+
 
   [Lernaktivität 1]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_1_Meet-the-greeps_german%20(1).pdf
   
