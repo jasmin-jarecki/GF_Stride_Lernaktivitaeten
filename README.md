@@ -1,9 +1,11 @@
 ## _Informatik Stunden-Dokumentation_
 
 #### **Inhalt**
+[1. Einleitung]
 [1. GF_Stride_Lernaktivitäten](#GF_S._L.)
 
 [2. Unser Spiel **Das Halunken Scenatrio**](#HalScen)
+[4. Ausblick]
 
 ###GF_Stride_Lernaktivitäten<a name="GF_S._L."></a>
   
