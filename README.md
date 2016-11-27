@@ -122,6 +122,7 @@ In der Act Methode für die Schildkröte haben wir dann bestimmt, dass sie sich 
 Die Blume sollte dann (unlogischerweise) das Jagen übernehmen sodass in ihrer Act-Methode zusätzlich bestimmt wurde:
 
 if(isTouching(Turtla.class))
+
 	removeTouching(Turtla.class)
 
 
@@ -133,12 +134,19 @@ Sowohl die Blume ("flower") als auch die Schildkröte ("Turtla") sollen über di
 Bsp. _flower_
 
 if(Greenfoot.isKeyDown("left"))
+
 	turn(-5)
+	
 if(Greenfoot.isKeyDown("right"))
+
 	turn(5)
+	
 if(Greenfoot.isKeyDown("up"))
+
 	move(5)
+	
 if(Greenfoot.isKeyDown("down"))
+
 	move(-5)
 	
 Beim Ausprobieren wurde deutlich, dass diese Beschreibung bisher nur zweckdienlch ist, aber noch nicht ganz ideal für die Ausführung. Dadurch, dass man anstatt sich seitlich zu bewegen, sich in eine bestimmte Richtung dreht, wenn man die Tasten mit den horizontalen Pfeilen drückt, kommt es ein wenig zu Bedienungsschwierigkeiten, an die man sich noch gewöhnen muss. Vielleicht fällt uns in Zukunkt noch eine optimalere Lösung ein.
@@ -156,6 +164,7 @@ Bis dahin war alles nicht weiter schwer, aber danach kamen wir noch zu keiner L�
 wir wollten versuchen der boolean Methode _isAtEdge()_ entsprechend, eine Variable _isAtBarrel()_ einzuführen, allerdings wollte dieser Ansatz noch nicht funktionieren. Wir formulierten es folgendermaßen:
 
 var Barrel barrel <= new Barrel()
+
     boolean isAtBarrel <= intersect(barrel)
    
 Die Anwendung dieser Variable zeigte aber ebenfalls keine Wirkung. Da wir uns eigentlich noch nicht wirklich mit Varaiablen beschäftigt haben, ist es sehr gut möglich, dass uns da noch entscheidenden Fehler unterlaufen sind, aber bisher hatten wir es noch nicht geschafft, diese zu beheben.
