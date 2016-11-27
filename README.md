@@ -56,7 +56,7 @@ Wir fuhren weiter in der Bearbeitung der Lernaktivitäten fort. Da wir in der le
 In dieser Stunde bearbeiteten wir zudem noch die [fünfte Lernaktivität][Lernaktivität 5].
 
 _Donnerstag, **03.11.2016**:_ 
-Da wir in der letzten Stunde bis zur fünften Lernaktivität gekommen, machten wir unserem Muster folgend weiter mit der sechsten [Lernaktivität][Lernaktivität 6]. 
+Da wir in der letzten Stunde bis zur fünften Lernaktivität gekommen, machten wir unserem Muster folgend weiter mit der [sechsten Lernaktivität][Lernaktivität 6]. 
 
 _Montag, **07.11.2016**:_
 In dieser Stunde wollten wir mit der siebten Lernaktivität anfangen. Das ging allerdings mit einigen Schwierigkeiten einher, die wir zunächst nicht zu lösen wussten, sodass wir nach einer Zeit fürs Erste Aufgaben und mit unserem Spiel fortfuhren. Wir wollten ein wenig Ordnung in unsere Quelltexte bringen. Das machten wir mittels des in der sechsten Aktivität Werkzeugs. Wir erstellten neue Methoden, in denen wir bestimmte Handlungen zu einer zusammenfassten. 
