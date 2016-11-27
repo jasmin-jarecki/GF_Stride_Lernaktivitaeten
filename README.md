@@ -2,10 +2,19 @@
 
 #### **Inhalt**
 [1. Einleitung]
-[1. GF_Stride_Lernaktivitäten](#GF_S._L.)
 
-[2. Unser Spiel **Das Halunken Scenatrio**](#HalScen)
+[2. GF_Stride_Lernaktivitäten](#GF_S._L.)
+
+[3. Unser Spiel **Das Halunken Scenatrio**](#HalScen)
+
 [4. Ausblick]
+
+###Einleitung<a name="Einl"></a>
+
+Lindas und mein Projekt soll sein, ein Spiel bei Greenfoot zu entwickeln. Um zu lernen, wie wir unsere Vorstellungen (Verweis) umsetzten können, bearbeiten wir grundsätzlich die GF_Stride_Lernaktivitäten.
+Die Idee, ein Spiel zu machen, kam uns erst einige Zeit, nachdem wir angefangen i.e. Lernaktivitäten zu bearbeiten. Zunächst wollten wir nur ein bisschen selbstständig rumprobieren, was wir bereits können bzw. gelernt haben. Dies ist auf der Grund, weswegen die bisherigen Bezeichnungen (z. B. Halunken Scenatrio) noch nicht so sachlich sind. 
+Im Folgenden beschreiben und dokumentieren wir zunächst die Ergebnisse und Fortschritte insbesondere in Bezug auf die Lernaktivitäten. Da wir die Arbeitsaufträge meistens auf den dazugehörigen Arbeitsblättern bearbeiten, sind die detaillierteren Aufzeichnungen auf den Blättern, die man nach Beendigung aufrufen kann (die Blätter sind verlinkt).
+Als letztes gibt es eine genauere Übersicht zu unserem Spiel. Diese soll einen Überblick über den aktuellen Fortschritt und Zustand unseres Spiels bieten. Außerdem soll ein Ausblick mit Zielsetzungen und den bereits oben erwähnten Vorstellungen gegeben werden.
 
 ###GF_Stride_Lernaktivitäten<a name="GF_S._L."></a>
   
@@ -50,6 +59,9 @@ _Donnerstag, **03.11.2016**:_
 Da wir in der letzten Stunde bis zur fünften Lernaktivität gekommen, machten wir unserem Muster folgend weiter mit der sechsten [Lernaktivität][Lernaktivität 6]. 
 
 _Montag, **07.11.2016**:_
+In dieser Stunde wollten wir mit der siebten Lernaktivität anfangen. Das ging allerdings mit einigen Schwierigkeiten einher, die wir zunächst nicht zu lösen wussten, sodass wir nach einer Zeit fürs Erste Aufgaben und mit unserem Spiel fortfuhren. Wir wollten ein wenig Ordnung in unsere Quelltexte bringen. Das machten wir mittels des in der sechsten Aktivität Werkzeugs. Wir erstellten neue Methoden, in denen wir bestimmte Handlungen zu einer zusammenfassten. 
+Die Problematik bei der Siebten Aufgabe im Übrigen war, dass wir die geforderten Tondateien nicht einzufügen wussten. Genauer gesagt, lag das eigentliche Problem darin, dass wir keine neuen Dateien aufnehmen konnten, was eigentlich gefordert war. Doch darum werden wir uns erst in fernerer Zukunft kümmern.
+
 
 _Montag, **14.11.2016**:_
 Aufgrund des anstehenden Abgabetermins der ersten Arbeit entschlossen Linda und ich uns, fürs erste nicht weiter an den Lernaktivitäten zu arbeiten. Wir wollten uns darum bemühen, dass wir eine vorläufig abgeschlossene Form unseres Spiels zu erreichen. Das sollte bedeuten, dass die ersten vier Punkte unserer Zielsetzungen bzw. Ideen umgesetzt sind. Da die ersten drei Kriterien bereits so gut wie erfüllt waren, kümmerten wir uns dabei nur noch um Kleinigkeiten. Eines davon war zum Beispiel, die Steuerung der Blume und der Schildkröte. Uns ist aufgefallen, dass die zuunächst eher wenig durchdachte Wahl der Tasten zu Irritationen führte, sodass wir dort Änderungen vorgenommen haben. Nachdem die drei ersten Punkte zu unserer Zufriedenheit abgearbeitet waren, kümmerten wir uns um den vierten Punkt. Dieser beinhaltet, dass wir den fliehenden _actors_ bessere Fluchtmöglichkeiten bieten, indem wir Hindernisse und Wände in die Welt bauen. Dafür wählten wir Fässer (_barrels_), die wir aneinader gereiht in der Welt platzierten. Ein großes Problem wurde allerdings recht schnell deutlich, nämlich, dass die Fässer von den Akteuren ignoriert bzw. behandelt wurden, als wären sie nicht da. Wir versuchten eine Möglichkeit zu finden, diesen fehler zu behebn, allerdings ist das nicht gelungen.  
