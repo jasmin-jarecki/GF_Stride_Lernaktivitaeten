@@ -1,7 +1,7 @@
 ## _Informatik Stunden-Dokumentation_
 
 #### **Inhalt**
-[1. Einleitung]
+[1. Einleitung](#Einl)
 
 [2. GF_Stride_Lernaktivitäten](#GF_S._L.)
 
@@ -26,7 +26,7 @@ Als letztes gibt es eine genauere Übersicht zu unserem Spiel. Diese soll einen 
   Linda und ich haben weiter an der ersten Lernaktivität gearbeitet. Dabei haben wir uns bisschen genauer mit den einzelnen         Befehlsblöcken beschäftigt und geguckt, wie sie geschrieben sind und wie man diese und mit welchen Folgen verändern kann.     Allerdings haben wir die Aktivität noch immer nicht ganz durchgeschafft.
 
   _Donnerstag, **29.09.2016**:_
-  Linda und ich haben heute die [erste Lernaktivität][Lernaktivität 1] beendet und die zweite angefangen. Das erste Arbeitsblatt wird als nächstes     hochgeladen.
+  Linda und ich haben heute die [erste Lernaktivität][Lernaktivität 1] beendet und die zweite angefangen. Das erste Arbeitsblatt wird als nächstes  hochgeladen.
   
   _Montag, **03.10.2016**:_ Tag der Deutschen Einheit → **kein Unterricht**
   
@@ -79,10 +79,32 @@ Hierbei handelt es sich um eine Welt die wir eigenständig bei Greenfoot angeleg
 Folgende Ideen haben wir:
 * In dem Spiel soll es darum gehen, dass ein _actor_ einen weiteren [jagen](#Lsg1) soll und diesen letzten Endes _(fr)isst_
 * Die _actors_ sollen über die Tastatur gesteuert werden, sodass das Spiel für zwei Spieler sein wird
-* Damit es für den Jagenden nicht so leicht ist, soll es noch einen weitereren _actor_ sich geben, der sich willkürlich bewegt und die Blume (fr)isst, wenn er sie berührt
-* Um allen Gejagten eine größere Überlebenschance zu ermöglichen, wollen wir so eine Art Hindernisse bzw. Mauer aus Objekten die von den _actors_ nicht überquert werden können, sodass man sich dahinter sozusagen verstecken kann.
+* Damit es für den Jagenden nicht so leicht ist, soll es noch einen weitereren _actor_ geben, der sich willkürlich bewegt und die Blume (fr)isst, wenn er sie berührt
+* Um allen Gejagten eine größere Überlebenschance zu ermöglichen, wollen wir eine Art Hindernisse bzw. Mauer aus Objekten, die von den _actors_ nicht überquert werden können, errichten, sodass man sich dahinter verstecken kann
+* dem Spiel sollen Geräusche/Töne beigefügt werden, damit es für bestimmte Handlungen und Ereignisse eine geräuschliche Untermalung gibt
+* Zudem wäre eine Kennzeichnung des Spielanfangs und des Spielendes deutlich werden 
+* Augenblicklich kann die Schildkröte nur verlieren, es müsste ebenfalls ein Ziel, abgesehen von der Flucht, geben
 
 Rahmenbedingungen des Halunken Scenatrios:
+
+Unsere Spieloberfläche beträgt 700 Pixel in x-Richtung und 500 Pixel in y-Richtung, Ursprünglich hatte sie andere Maße, die haben wir aber aus Platzmangel geändert, damit die gesamte Oberfläche größer würde.
+Es ist folgendermaßen beschrieben.
+Im MyWorld-Editor unter den _constructors_
+
+
+super(700,500,1)
+
+prepare()
+
+
+In der Methode _prepare()_ sind dann unsere _actors_ bestimmt. Ganz am Anfang war dort nur zu sehen:
+ 
+var flower flower <= new flower()
+addObject (flower, 137,66)
+
+Wie man im Quelltext sehen kann, ist dort das Szenario in drei Dimensionen beschrieben. Da allerdings unsere Akteure nur zweidimensional sind, muss das Spiel auch auf dieser Ebene stattfinden, was wahrscheinlich auch zunächst einemmal leichter und somit besser für uns ist.
+
+
 
 Ein _actor_ jagt den anderen<a name="Lsg1"></a>:
 Dafür setzten wir zu unserer Blume einen weiteren _actor_ in Form einer Schildkröte, die im Folgenden "Turtla" genannt wird, ein.
@@ -98,5 +120,4 @@ Dafür setzten wir zu unserer Blume einen weiteren _actor_ in Form einer Schildk
 [Lernaktivität 5]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_5_Little_Crab_Zufallszahlen_dot_notation_german.pdf
 
 [Lernaktivität 6]:https://github.com/JasminJarecki/GF_Stride_Lernaktivitaeten/blob/master/Lernaktivitäten/Lernaktivitaet_6_Little_Crab_new_classes_german.pdf
-
 
