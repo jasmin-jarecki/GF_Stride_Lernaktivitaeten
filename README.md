@@ -1,13 +1,15 @@
 ## _Informatik Stunden-Dokumentation_
 
 #### **Inhalt**
-[1. Einleitung](#Einl)
+<ol>
+	<li>[1. Einleitung](#Einl)</li>
 
-[2. GF_Stride_Lernaktivitäten](#GF_S._L.)
+<li>[2. GF_Stride_Lernaktivitäten](#GF_S._L.)</li>
 
-[3. Unser Spiel **Das Halunken Scenatrio**](#HalScen)
+<li>[3. Unser Spiel **Das Halunken Scenatrio**](#HalScen)</li>
 
-[4. Ausblick](#Ausbl)
+<li>[4. Ausblick](#Ausbl)</li>
+</ol>
 
 ###Einleitung<a name="Einl"></a>
 
